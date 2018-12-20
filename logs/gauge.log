@@ -1,0 +1,33 @@
+12:19:21.812 Plugin ruby is already installed.
+12:19:21.813 Plugin html-report is already installed.
+12:19:21.814 Plugin xml-report is already installed.
+12:19:21.815 Plugin json-report is already installed.
+12:19:22.159 Checking updates...
+12:19:23.449 # Authorization: Validate logging into and out of The-Internet
+12:19:23.449 ## Authorization: Successfully log into and out of the secure area
+12:19:23.450 * LOGIN: Visit the Login Page
+12:19:25.224 * LOGIN: Verify heading: "Login Page"
+
+12:19:25.314 * LOGIN: Log into the site using username and password: "tomsmith" and "SuperSecretPassword!"
+12:19:25.776 * SECURE AREA: Verify heading: "Secure Area"
+12:19:25.819 * SECURE AREA: Log out of the secure area
+12:19:26.000 * LOGIN: Verify heading: "Login Page"
+
+12:19:26.042 ## Authorization: Verify alert error is shown when entering a blank user name and password.
+12:19:26.043 * LOGIN: Visit the Login Page
+12:19:26.135 * LOGIN: Verify heading: "Login Page"
+
+12:19:26.176 * LOGIN: Log into the site using username and password: " " and " "
+12:19:26.518 * LOGIN: Verify alert message: "Your username is invalid"
+12:19:26.560 # Navigation: Go to The-Internet Login Page
+12:19:26.560 ## NAVIGATION: Visit The-Internet
+12:19:26.560 * LOGIN: Visit the Login Page
+12:19:26.646 * LOGIN: Verify heading: "Login Page"
+12:19:26.797 Plugin [JSON Report] with pid [7699] has exited
+12:19:26.797 Plugin [Xml Report] with pid [7698] has exited
+12:19:26.900 Plugin [Html Report] with pid [7697] has exited
+12:19:26.900 Specifications:	2 executed	2 passed	0 failed	0 skipped
+12:19:26.900 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+12:19:26.900 
+Total time taken: 3.978s
+12:19:26.901 Updates are available. Run `gauge update -c` for more info.

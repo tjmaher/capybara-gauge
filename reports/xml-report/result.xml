@@ -1,0 +1,15 @@
+<testsuites>
+	<testsuite id="1" tests="2" failures="0" package="/Users/tjmaher/src/app/capybara-gauge/specs/Authorization/SmokeTests.spec" time="3.097" timestamp="2018-12-20T12:19:26" name="Authorization: Validate logging into and out of The-Internet" errors="0" hostname="tjmac.local">
+		<properties></properties>
+		<testcase classname="Authorization: Validate logging into and out of The-Internet" name="Authorization: Successfully log into and out of the secure area" time="2.585"></testcase>
+		<testcase classname="Authorization: Validate logging into and out of The-Internet" name="Authorization: Verify alert error is shown when entering a blank user name and password." time="0.512"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+	<testsuite id="2" tests="1" failures="0" package="/Users/tjmaher/src/app/capybara-gauge/specs/Navigation/Navigation.spec" time="0.124" timestamp="2018-12-20T12:19:26" name="Navigation: Go to The-Internet Login Page" errors="0" hostname="tjmac.local">
+		<properties></properties>
+		<testcase classname="Navigation: Go to The-Internet Login Page" name="NAVIGATION: Visit The-Internet" time="0.124"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>

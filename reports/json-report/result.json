@@ -1,0 +1,299 @@
+{
+	"projectName": "capybara-gauge",
+	"timestamp": "Dec 20, 2018 at 12:19pm",
+	"successRate": 100,
+	"environment": "default",
+	"tags": "",
+	"executionTime": 3978,
+	"executionStatus": "pass",
+	"specResults": [
+		{
+			"specHeading": "Authorization: Validate logging into and out of The-Internet",
+			"fileName": "/Users/tjmaher/src/app/capybara-gauge/specs/Authorization/SmokeTests.spec",
+			"tags": [],
+			"executionTime": 3097,
+			"executionStatus": "pass",
+			"scenarios": [
+				{
+					"scenarioHeading": "Authorization: Successfully log into and out of the secure area",
+					"tags": [],
+					"executionTime": 2585,
+					"executionStatus": "pass",
+					"contexts": [
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Visit the Login Page",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 1773,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Verify heading: \"Login Page\"",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 89,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						}
+					],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Log into the site using username and password: \"tomsmith\" and \"SuperSecretPassword!\"",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 461,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "SECURE AREA: Verify heading: \"Secure Area\"",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 42,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "SECURE AREA: Log out of the secure area",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 180,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Verify heading: \"Login Page\"",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 40,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"afterScenarioHookFailure": null,
+					"skipErrors": [],
+					"tableRowIndex": -1
+				},
+				{
+					"scenarioHeading": "Authorization: Verify alert error is shown when entering a blank user name and password.",
+					"tags": [],
+					"executionTime": 512,
+					"executionStatus": "pass",
+					"contexts": [
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Visit the Login Page",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 91,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Verify heading: \"Login Page\"",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 41,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						}
+					],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Log into the site using username and password: \" \" and \" \"",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 341,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Verify alert message: \"Your username is invalid\"",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 39,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"afterScenarioHookFailure": null,
+					"skipErrors": [],
+					"tableRowIndex": -1
+				}
+			],
+			"isTableDriven": false,
+			"datatable": null,
+			"beforeSpecHookFailure": null,
+			"afterSpecHookFailure": null,
+			"passedScenarioCount": 2,
+			"failedScenarioCount": 0,
+			"skippedScenarioCount": 0
+		},
+		{
+			"specHeading": "Navigation: Go to The-Internet Login Page",
+			"fileName": "/Users/tjmaher/src/app/capybara-gauge/specs/Navigation/Navigation.spec",
+			"tags": [],
+			"executionTime": 124,
+			"executionStatus": "pass",
+			"scenarios": [
+				{
+					"scenarioHeading": "NAVIGATION: Visit The-Internet",
+					"tags": [],
+					"executionTime": 124,
+					"executionStatus": "pass",
+					"contexts": [],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Visit the Login Page",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 84,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "LOGIN: Verify heading: \"Login Page\"",
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "pass",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 40,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion"
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"afterScenarioHookFailure": null,
+					"skipErrors": [],
+					"tableRowIndex": -1
+				}
+			],
+			"isTableDriven": false,
+			"datatable": null,
+			"beforeSpecHookFailure": null,
+			"afterSpecHookFailure": null,
+			"passedScenarioCount": 1,
+			"failedScenarioCount": 0,
+			"skippedScenarioCount": 0
+		}
+	],
+	"beforeSuiteHookFailure": null,
+	"afterSuiteHookFailure": null,
+	"passedSpecsCount": 2,
+	"failedSpecsCount": 0,
+	"skippedSpecsCount": 0,
+	"passedScenariosCount": 3,
+	"failedScenariosCount": 0,
+	"skippedScenariosCount": 0
+}
