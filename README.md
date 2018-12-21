@@ -20,4 +20,12 @@ Code walkthoughs are given on the software testing blog, **Adventures in Automat
 * **Part Seven:** [Rubocop Code Review](http://www.tjmaher.com/2018/12/capybara-gauge-7.html)
 * **Source Code:** https://github.com/tjmaher/capybara-gauge
 
+## Framework
+
+* [Spec](https://github.com/tjmaher/capybara-gauge/tree/master/specs): The test specifications: Human readable documents telling what is being tested and how
+* [Step Implementations](https://github.com/tjmaher/capybara-gauge/tree/master/step_implementations): Matches the test steps with the Capybara code that executes the browser tests
+* Step Implementations/[Spec_Helper.rb](https://github.com/tjmaher/capybara-gauge/blob/master/step_implementations/spec_helper.rb): Configures Capybara to work with the Gauge framework, sets up Chrome to open in headless and non-headless mode, and sets up Chrome and ChromeDriver logging. 
+* [Reports](https://github.com/tjmaher/capybara-gauge/tree/master/reports): See what happens when the browser tests run, in xml, json, or html format. 
+* [Logs](https://github.com/tjmaher/capybara-gauge/tree/master/logs): Anything go wrong when running the tests? Check if there are console errors in the chrome.log, or Selenium problems in the chromedriver.log. 
+
 
